@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D7F9F9A21E03C4A0009F43D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F9A11E03C4A0009F43D5 /* main.swift */; };
 		D7F9F9BC1E03F89F009F43D5 /* StreamedUTF8Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F9BB1E03F89F009F43D5 /* StreamedUTF8Decoder.swift */; };
-		D7F9F9BE1E040133009F43D5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F9BD1E040133009F43D5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "OOPer (NAGATA, Atsuyuki)";
 				TargetAttributes = {
 					D7F9F99D1E03C4A0009F43D5 = {
@@ -127,7 +126,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F9F9BE1E040133009F43D5 /* README.md in Sources */,
 				D7F9F9BC1E03F89F009F43D5 /* StreamedUTF8Decoder.swift in Sources */,
 				D7F9F9A21E03C4A0009F43D5 /* main.swift in Sources */,
 			);
@@ -221,6 +219,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
